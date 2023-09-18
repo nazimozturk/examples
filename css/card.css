@@ -1,6 +1,11 @@
+body {
+
+    background-color: seashell;
+}
+
 .container {
     border-radius: 20px;
-    background-color: seashell;
+    background-color: white;
     width: 360px;
 
 }
