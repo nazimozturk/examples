@@ -1,0 +1,84 @@
+.container {
+    border-radius: 20px;
+    background-color: seashell;
+    width: 360px;
+
+}
+
+.card-head {}
+
+.media {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mediaBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 25px;
+}
+
+.avatar-img {
+    width: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fullname {
+    color: var(--black, #000);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.jobs {
+    color: var(--muted-color, #78858F);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    /* 170% */
+    letter-spacing: 0.5px;
+}
+
+.card-image-body {
+    width: 360px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: pointer;
+}
+
+.dot {
+    height: 5px;
+    padding-bottom: 3px;
+}
+
+.card-image {}
+
+.card-footer-text {
+    color: var(--muted-color, #78858F);
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 25px;
+
+}
